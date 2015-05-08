@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "GA & GTM Ghoster",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "contextMenus"
+  ],
+  "description": "Allows to ghost into GA/GTM accounts faster."
+}
